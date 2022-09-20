@@ -1,0 +1,24 @@
+{
+    "image2": {
+        "data": "hwQRAAwAAAAAAPD/AAAAAAAAH/0PAAAAAPAf8fQAAAAAXx/xRA8AAPBVH/FEDwAA8FUf/UT0AABfVfVfRPQAAF9VVVVE9AAAX/9fVU/0AAD/EfH18vQAAB8RES8vDwAAHxERLy8PAADw8R8vLw8AAAAfES8vDwAAAPD/Ly8PAAAAAAAv/wAAAAAAAPAAAAAA",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "flap_pee_bird_flap"
+    },
+    "image1": {
+        "data": "hwQRAAwAAAAAAP8PAAAAAADwEf0AAAAAAPAR0f8AAAAA/xHRTw8AAPD1EdFPDwAA8FUf/UT0AABfVfVfRPQAAF9VVVVE9AAAX/9fVU/0AAD/EfH18vQAAB8RES8vDwAAHxERLy8PAADw8R8vLw8AAAAfES8vDwAAAPD/Ly8PAAAAAAAv/wAAAAAAAPAAAAAA",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "flap_pee_bird"
+    },
+    "anim1": {
+        "namespace": "myAnimations",
+        "id": "anim1",
+        "mimeType": "application/mkcd-animation",
+        "data": "YzgwMDExMDAwYzAwMDIwMDAwMDAwMGZmZmZmZjAwMDAwMDAwZjA1ZjU1MWZmMTAwMDAwMGYwNTU1NTFmMTFmMTAwMDBmZmZmNTVmNTFkZjFmMTAwMWYxMWYxNTVkZjExMWYwZmYwMTExMWYxNTVkZjExZjEwMGRmMTFkMTVmNTVmZmZmMGYwMGRmZGQ1ZjU1MmYyMjIyMGYwMGZmNGY0NDJmZmZmZjBmMDBmMDQ0NDQ0NDJmMjJmMjAwMDBmMDRmNDQ0NGZmZmYwMDAwMDAwMGZmZmYwZjAwMDAwMDAwMDAwMGZmZmZmZjAwMDAwMDAwZjA1ZjU1MWZmMTAwMDAwMGYwNTU1NTFmMTFmMTAwMDBmMDU1NTVmNTFkZjFmMTAwZjA1NTU1NTVkZjExMWYwZjAwZmZmZjVmNTVkZjExZjEwMDFmMTExMTVmNTVmZmZmMGZmMDFkMTFmZDU1MmYyMjIyMGZmMGZmZmY0NDJmZmZmZjBmMDBmMDQ0NDQ0NDJmMjJmMjAwMDBmMDRmNDQ0NGZmZmYwMDAwMDAwMGZmZmYwZjAwMDAwMA==",
+        "displayName": "myAnim"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
