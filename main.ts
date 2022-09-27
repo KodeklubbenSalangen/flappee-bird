@@ -1,14 +1,15 @@
-controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
-	
+sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
+    game.over(false)
 })
-let mySprite = sprites.create(assets.image`flap_pee_bird`, SpriteKind.Player)
+let enemyburd: Sprite = null
+let Diffic = 1000
+let mySprite = sprites.create(assets.image`flap_pee_bird_flap`, SpriteKind.Player)
 animation.runImageAnimation(
 mySprite,
-assets.animation`myAnim`,
+assets.animation`flappeebird`,
 100,
 true
 )
-mySprite.vy = 100
 mySprite.setStayInScreen(true)
 scene.setBackgroundImage(img`
     9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
@@ -133,3 +134,15 @@ scene.setBackgroundImage(img`
     7777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777
     `)
 controller.moveSprite(mySprite, 0, 100)
+game.onUpdateInterval(500, function () {
+    enemyburd = sprites.create(assets.image`flap_pee_bird`, SpriteKind.Enemy)
+    animation.runImageAnimation(
+    enemyburd,
+    assets.animation`evil_flappeebird`,
+    Diffic,
+    true
+    )
+    enemyburd.x = scene.screenWidth()
+    enemyburd.vx = -100
+    enemyburd.y = randint(0, 200)
+})
